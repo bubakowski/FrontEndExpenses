@@ -1,0 +1,18 @@
+@use "./src/scss/abstracts/colors" as c;
+@use "./src/scss/abstracts/mixins" as m;
+
+.wrapper {
+	background: c.$Cream;
+	height: 100%;
+	width: 100%;
+	main {
+        @include m.flex(center, center);
+        flex-direction: column;
+        height: 98%;
+
+	
+	}
+    footer{
+        height: 2%;
+    }
+}

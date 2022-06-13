@@ -1,0 +1,22 @@
+@media screen and(max-width:425px) {
+    .top_bar{
+        width: 80%;
+        margin-bottom: 5%;
+        padding: 5%;
+    }
+    .card{
+        width: 80%;
+        padding: 5%;
+        
+    }
+    .bars{
+        margin-bottom: 15%;
+        .bar{
+            border-radius: 5px;
+            .amount {
+                padding:15%;
+                z-index: 2;
+            }
+        }
+    }
+}
